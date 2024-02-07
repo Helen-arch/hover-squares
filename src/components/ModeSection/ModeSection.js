@@ -14,23 +14,40 @@ const customStyles = {
   }),
 };
 
-export const ModeSection = () => {
-  return (
-    <section>
-      <div className={styles.modeContainer}>
-        <Select
-          placeholder='Pick mode'
-          styles={customStyles}
-        />
+export const ModeSection = ({
+  options,
+  onHoverSquare,
+  hovered,
+  onSubmit,
+  currentMode,
+  onSelectMode,
+  currentSize,
+}) => (
+  <section>
+    <form
+      className={styles.modeContainer}
+      onSubmit={onSubmit}
+    >
+      <Select
+        placeholder='Pick mode'
+        styles={customStyles}
+        options={options}
+        value={currentMode}
+        onChange={onSelectMode}
+      />
 
-        <button
-          className={styles.start}
-        >
-          Start
-        </button>
-      </div>
-      
-      <Field />
-    </section>
-  );
-};
+      <button
+        type='submit'
+        className={styles.start}
+      >
+        Start
+      </button>
+    </form>
+    
+    <Field
+      size={currentSize}
+      onHoverSquare={onHoverSquare}
+      hovered={hovered}
+    />
+  </section>
+);

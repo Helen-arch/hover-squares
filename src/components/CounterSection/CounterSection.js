@@ -1,11 +1,15 @@
 import styles from './CounterSection.module.scss';
 
-export const CounterSection = () => {
+export const CounterSection = ({ hovered }) => {
   return (
     <section>
       <h1 className={styles.title}>Hover squares</h1>
 
-      <div className={styles.item}>row 2 col 1</div>
+      {hovered.map(({ row, col }) => (
+        <div className={styles.item} key={row + 'id' + col}>
+          {`row ${row} col ${col}`}
+        </div>
+      ))}
     </section>
   );
 };
