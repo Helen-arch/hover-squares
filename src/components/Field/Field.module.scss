@@ -1,0 +1,21 @@
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  box-sizing: border-box;
+}
+
+.lastColumn {
+  border-right: 1px solid black;
+}
+
+.lastRow {
+  border-bottom: 1px solid black;
+}
