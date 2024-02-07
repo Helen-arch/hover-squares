@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/hover-squares/static/css/main.f855e6bc.css",
-    "main.js": "/hover-squares/static/js/main.60d5cb6e.js",
+    "main.css": "/hover-squares/static/css/main.b0f1796a.css",
+    "main.js": "/hover-squares/static/js/main.84d7f175.js",
     "static/js/592.45f18c8a.chunk.js": "/hover-squares/static/js/592.45f18c8a.chunk.js",
-    "static/media/logo.svg": "/hover-squares/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/hover-squares/index.html",
-    "main.f855e6bc.css.map": "/hover-squares/static/css/main.f855e6bc.css.map",
-    "main.60d5cb6e.js.map": "/hover-squares/static/js/main.60d5cb6e.js.map",
+    "main.b0f1796a.css.map": "/hover-squares/static/css/main.b0f1796a.css.map",
+    "main.84d7f175.js.map": "/hover-squares/static/js/main.84d7f175.js.map",
     "592.45f18c8a.chunk.js.map": "/hover-squares/static/js/592.45f18c8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.60d5cb6e.js"
+    "static/css/main.b0f1796a.css",
+    "static/js/main.84d7f175.js"
   ]
 }
